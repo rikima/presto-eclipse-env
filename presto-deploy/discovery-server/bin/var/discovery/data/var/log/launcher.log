@@ -1,0 +1,15 @@
+2014-01-11T00:54:35.839+0900	 INFO	main	io.airlift.log.Logging	Logging to stderr
+2014-01-11T00:54:35.844+0900	 INFO	main	Bootstrap	Loading configuration
+2014-01-11T00:54:36.040+0900	 INFO	main	Bootstrap	Initializing logging
+2014-01-11T00:54:36.099+0900	 INFO	main	io.airlift.log.Logging	Logging to /home/rikitoku/workspace/presto/presto-deploy/discovery-server/bin/var/discovery/data/var/log/server.log
+2014-01-11T00:54:36.122+0900	 INFO	main	io.airlift.log.Logging	Disabling stderr output
+2014-01-11T00:55:09.859+0900	 INFO	main	io.airlift.log.Logging	Logging to stderr
+2014-01-11T00:55:09.863+0900	 INFO	main	Bootstrap	Loading configuration
+2014-01-11T00:55:10.025+0900	 INFO	main	Bootstrap	Initializing logging
+2014-01-11T00:55:10.079+0900	 INFO	main	io.airlift.log.Logging	Logging to /home/rikitoku/workspace/presto/presto-deploy/discovery-server/bin/var/discovery/data/var/log/server.log
+2014-01-11T00:55:10.104+0900	 INFO	main	io.airlift.log.Logging	Disabling stderr output
+2014-01-11T00:57:17.036+0900	 INFO	main	io.airlift.log.Logging	Logging to stderr
+2014-01-11T00:57:17.041+0900	 INFO	main	Bootstrap	Loading configuration
+2014-01-11T00:57:17.269+0900	 INFO	main	Bootstrap	Initializing logging
+2014-01-11T00:57:17.327+0900	 INFO	main	io.airlift.log.Logging	Logging to /home/rikitoku/workspace/presto/presto-deploy/discovery-server/bin/var/discovery/data/var/log/server.log
+2014-01-11T00:57:17.670+0900	 INFO	main	io.airlift.log.Logging	Disabling stderr output

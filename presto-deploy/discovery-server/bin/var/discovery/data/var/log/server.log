@@ -1,0 +1,657 @@
+2014-01-11T00:54:36.122+0900	 INFO	main	io.airlift.log.Logging	Disabling stderr output
+2014-01-11T00:54:36.806+0900	 WARN	main	Bootstrap	Warning: Configuration property 'discovery.uri' is deprecated and should not be used
+2014-01-11T00:54:36.997+0900	 INFO	main	Bootstrap	PROPERTY                                          DEFAULT                   RUNTIME                               DESCRIPTION
+2014-01-11T00:54:36.997+0900	 INFO	main	Bootstrap	discovery.uri                                     null                      http://127.0.0.1:8411                 Discovery service base URI
+2014-01-11T00:54:36.997+0900	 INFO	main	Bootstrap	service-inventory.uri                             null                      null                                  Service inventory base URI
+2014-01-11T00:54:36.997+0900	 INFO	main	Bootstrap	service-inventory.update-interval                 10.00s                    10.00s                                Service inventory update interval
+2014-01-11T00:54:36.997+0900	 INFO	main	Bootstrap	discovery.collector.pool                          general                   general
+2014-01-11T00:54:36.997+0900	 INFO	main	Bootstrap	discovery.max-age                                 30.00s                    30.00s
+2014-01-11T00:54:36.997+0900	 INFO	main	Bootstrap	discovery.store-cache-ttl                         1.00s                     1.00s
+2014-01-11T00:54:36.997+0900	 INFO	main	Bootstrap	static.db.location                                db                        db
+2014-01-11T00:54:36.997+0900	 INFO	main	Bootstrap	dynamic.store.gc-interval                         1.00h                     1.00h
+2014-01-11T00:54:36.997+0900	 INFO	main	Bootstrap	dynamic.store.remote.max-batch-size               1000                      1000
+2014-01-11T00:54:36.997+0900	 INFO	main	Bootstrap	dynamic.store.remote.queue-size                   1000                      1000
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	dynamic.store.remote.update-interval              5.00s                     5.00s
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	dynamic.store.remote.replication-interval         1.00m                     1.00m
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	dynamic.store.tombstone-max-age                   1.00d                     1.00d
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	static.store.gc-interval                          1.00h                     1.00h
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	static.store.remote.max-batch-size                1000                      1000
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	static.store.remote.queue-size                    1000                      1000
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	static.store.remote.update-interval               5.00s                     5.00s
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	static.store.remote.replication-interval          1.00m                     1.00m
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	static.store.tombstone-max-age                    1.00d                     1.00d
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	discovery.http-client.connect-timeout             1.00s                     1.00s
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	discovery.http-client.keep-alive-interval         null                      null
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	discovery.http-client.max-connections             200                       200
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	discovery.http-client.max-connections-per-server  20                        20
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	discovery.http-client.read-timeout                1.00m                     1.00m
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	discovery.http-client.socks-proxy                 null                      null
+2014-01-11T00:54:36.998+0900	 INFO	main	Bootstrap	dynamic.http-client.connect-timeout               1.00s                     1.00s
+2014-01-11T00:54:36.999+0900	 INFO	main	Bootstrap	dynamic.http-client.keep-alive-interval           null                      null
+2014-01-11T00:54:36.999+0900	 INFO	main	Bootstrap	dynamic.http-client.max-connections               200                       200
+2014-01-11T00:54:36.999+0900	 INFO	main	Bootstrap	dynamic.http-client.max-connections-per-server    20                        20
+2014-01-11T00:54:36.999+0900	 INFO	main	Bootstrap	dynamic.http-client.read-timeout                  1.00m                     1.00m
+2014-01-11T00:54:36.999+0900	 INFO	main	Bootstrap	dynamic.http-client.socks-proxy                   null                      null
+2014-01-11T00:54:36.999+0900	 INFO	main	Bootstrap	static.http-client.connect-timeout                1.00s                     1.00s
+2014-01-11T00:54:36.999+0900	 INFO	main	Bootstrap	static.http-client.keep-alive-interval            null                      null
+2014-01-11T00:54:36.999+0900	 INFO	main	Bootstrap	static.http-client.max-connections                200                       200
+2014-01-11T00:54:36.999+0900	 INFO	main	Bootstrap	static.http-client.max-connections-per-server     20                        20
+2014-01-11T00:54:36.999+0900	 INFO	main	Bootstrap	static.http-client.read-timeout                   1.00m                     1.00m
+2014-01-11T00:54:36.999+0900	 INFO	main	Bootstrap	static.http-client.socks-proxy                    null                      null
+2014-01-11T00:54:36.999+0900	 INFO	main	Bootstrap	event.http-client.connect-timeout                 1.00s                     1.00s
+2014-01-11T00:54:36.999+0900	 INFO	main	Bootstrap	event.http-client.keep-alive-interval             null                      null
+2014-01-11T00:54:36.999+0900	 INFO	main	Bootstrap	event.http-client.max-connections                 200                       200
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	event.http-client.max-connections-per-server      20                        20
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	event.http-client.read-timeout                    1.00m                     1.00m
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	event.http-client.socks-proxy                     null                      null
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	discovery.http-client.pool-connections            false                     false
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	discovery.http-client.max-content-length          16MB                      16MB
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	discovery.http-client.threads                     8                         8
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	event.http-client.pool-connections                false                     false
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	event.http-client.max-content-length              16MB                      16MB
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	event.http-client.threads                         8                         8
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	http-client.shared-io-boss-threads                1                         1
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	http-client.shared-io-worker-threads              4                         4
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	http-server.admin.enabled                         true                      true
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	http-server.admin.threads.max                     20                        20
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	http-server.admin.threads.min                     2                         2
+2014-01-11T00:54:37.000+0900	 INFO	main	Bootstrap	http-server.admin.port                            0                         0
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	http-server.http.enabled                          true                      true
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	http-server.http.port                             8080                      8411
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	http-server.https.enabled                         false                     false
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	http-server.https.port                            8443                      8443
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	http-server.https.keystore.key                    null                      null
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	http-server.https.keystore.path                   null                      null
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	http-server.log.path                              var/log/http-request.log  var/log/http-request.log
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	http-server.log.retention-time                    15.00d                    15.00d
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	http-server.max-request-header-size               null                      null
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	http-server.threads.max                           200                       200
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	http-server.threads.min                           2                         2
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	http-server.net.max-idle-time                     200.00s                   200.00s
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	http-server.threads.max-idle-time                 1.00m                     1.00m
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	http-server.auth.users-file                       null                      null
+2014-01-11T00:54:37.001+0900	 INFO	main	Bootstrap	jmx.rmiregistry.port                              null                      null
+2014-01-11T00:54:37.002+0900	 INFO	main	Bootstrap	jmx.rmiserver.port                                null                      null
+2014-01-11T00:54:37.002+0900	 INFO	main	Bootstrap	jmx-http-rpc.password                             null                      null
+2014-01-11T00:54:37.002+0900	 INFO	main	Bootstrap	jmx-http-rpc.username                             null                      null
+2014-01-11T00:54:37.002+0900	 INFO	main	Bootstrap	node.binary-spec                                  null                      null
+2014-01-11T00:54:37.002+0900	 INFO	main	Bootstrap	node.config-spec                                  null                      null
+2014-01-11T00:54:37.002+0900	 INFO	main	Bootstrap	node.environment                                  null                      production
+2014-01-11T00:54:37.002+0900	 INFO	main	Bootstrap	node.location                                     null                      null
+2014-01-11T00:54:37.002+0900	 INFO	main	Bootstrap	node.bind-ip                                      null                      null
+2014-01-11T00:54:37.002+0900	 INFO	main	Bootstrap	node.external-address                             null                      null
+2014-01-11T00:54:37.002+0900	 INFO	main	Bootstrap	node.id                                           null                      ffffffff-ffff-ffff-ffff-fffffffffff0
+2014-01-11T00:54:37.002+0900	 INFO	main	Bootstrap	node.ip                                           null                      null
+2014-01-11T00:54:37.002+0900	 INFO	main	Bootstrap	node.pool                                         general                   general
+2014-01-11T00:54:37.002+0900	 INFO	main	Bootstrap	
+2014-01-11T00:54:37.773+0900	 INFO	main	io.airlift.jmx.JmxAgent	JMX agent started and listening on localhost.localdomain:55021
+2014-01-11T00:54:38.134+0900	 INFO	main	org.eclipse.jetty.server.Server	jetty-8.1.9.v20130131
+2014-01-11T00:54:38.367+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.jaxrs.JsonMapper as a provider class
+2014-01-11T00:54:38.367+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.jaxrs.ParsingExceptionMapper as a provider class
+2014-01-11T00:54:38.367+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.server.ServiceResource as a root resource class
+2014-01-11T00:54:38.367+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.server.DynamicAnnouncementResource as a root resource class
+2014-01-11T00:54:38.367+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.store.StoreResource as a root resource class
+2014-01-11T00:54:38.367+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.store.SmileMapper as a provider class
+2014-01-11T00:54:38.367+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.server.StaticAnnouncementResource as a root resource class
+2014-01-11T00:54:38.371+0900	 INFO	main	com.sun.jersey.server.impl.application.WebApplicationImpl	Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+2014-01-11T00:54:38.451+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.jaxrs.ParsingExceptionMapper to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:54:38.453+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.jaxrs.JsonMapper to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:54:38.455+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.store.SmileMapper to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:54:38.830+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.server.ServiceResource to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:54:39.087+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.server.DynamicAnnouncementResource to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:54:39.091+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.store.StoreResource to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:54:39.094+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.server.StaticAnnouncementResource to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:54:39.121+0900	 WARN	main	org.eclipse.jetty.util.component.AbstractLifeCycle	FAILED SelectChannelConnector@0.0.0.0:8411: java.net.BindException: アドレスは既に使用中です
+java.net.BindException: アドレスは既に使用中です
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:444) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_45]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:291) [jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at io.airlift.http.server.HttpServer.start(HttpServer.java:310) [http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:146) [http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:41) [http-server-0.83.jar:0.83]
+	at com.google.inject.internal.BoundProviderFactory.get(BoundProviderFactory.java:55) [guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) [guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031) [guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) [guice-3.0.jar:na]
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:204) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:198) [guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:198) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:179) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:109) [guice-3.0.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:95) [guice-3.0.jar:na]
+	at io.airlift.bootstrap.Bootstrap.initialize(Bootstrap.java:277) [bootstrap-0.83.jar:0.83]
+	at io.airlift.discovery.server.DiscoveryServer.main(DiscoveryServer.java:57) [discovery-server-1.16.jar:1.16]
+2014-01-11T00:54:39.128+0900	 INFO	main	org.eclipse.jetty.server.AbstractConnector	Started SelectChannelConnector@0.0.0.0:42818
+2014-01-11T00:54:39.128+0900	 WARN	main	org.eclipse.jetty.util.component.AbstractLifeCycle	FAILED org.eclipse.jetty.server.Server@7b516062: java.net.BindException: アドレスは既に使用中です
+java.net.BindException: アドレスは既に使用中です
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:444) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_45]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:291) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at io.airlift.http.server.HttpServer.start(HttpServer.java:310) [http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:146) [http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:41) [http-server-0.83.jar:0.83]
+	at com.google.inject.internal.BoundProviderFactory.get(BoundProviderFactory.java:55) [guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) [guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031) [guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) [guice-3.0.jar:na]
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:204) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:198) [guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:198) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:179) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:109) [guice-3.0.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:95) [guice-3.0.jar:na]
+	at io.airlift.bootstrap.Bootstrap.initialize(Bootstrap.java:277) [bootstrap-0.83.jar:0.83]
+	at io.airlift.discovery.server.DiscoveryServer.main(DiscoveryServer.java:57) [discovery-server-1.16.jar:1.16]
+2014-01-11T00:54:39.447+0900	ERROR	main	io.airlift.discovery.server.DiscoveryServer	Guice creation errors:
+
+1) Error in custom provider, java.lang.RuntimeException: java.net.BindException: アドレスは既に使用中です
+  while locating io.airlift.http.server.HttpServerProvider
+  at io.airlift.http.server.HttpServerModule.configure(HttpServerModule.java:61)
+  while locating io.airlift.http.server.HttpServer
+
+1 error
+com.google.inject.CreationException: Guice creation errors:
+
+1) Error in custom provider, java.lang.RuntimeException: java.net.BindException: アドレスは既に使用中です
+  while locating io.airlift.http.server.HttpServerProvider
+  at io.airlift.http.server.HttpServerModule.configure(HttpServerModule.java:61)
+  while locating io.airlift.http.server.HttpServer
+
+1 error
+	at com.google.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:435) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:183) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:109) ~[guice-3.0.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:95) ~[guice-3.0.jar:na]
+	at io.airlift.bootstrap.Bootstrap.initialize(Bootstrap.java:277) ~[bootstrap-0.83.jar:0.83]
+	at io.airlift.discovery.server.DiscoveryServer.main(DiscoveryServer.java:57) ~[discovery-server-1.16.jar:1.16]
+Caused by: java.lang.RuntimeException: java.net.BindException: アドレスは既に使用中です
+	at com.google.common.base.Throwables.propagate(Throwables.java:160) ~[guava-15.0.jar:na]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:150) ~[http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:41) ~[http-server-0.83.jar:0.83]
+	at com.google.inject.internal.BoundProviderFactory.get(BoundProviderFactory.java:55) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) ~[guice-3.0.jar:na]
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:204) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:198) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:198) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:179) ~[guice-3.0.jar:na]
+	... 4 common frames omitted
+Caused by: java.net.BindException: アドレスは既に使用中です
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:444) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_45]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:291) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at io.airlift.http.server.HttpServer.start(HttpServer.java:310) ~[http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:146) ~[http-server-0.83.jar:0.83]
+	... 16 common frames omitted
+2014-01-11T00:55:10.104+0900	 INFO	main	io.airlift.log.Logging	Disabling stderr output
+2014-01-11T00:55:10.619+0900	 WARN	main	Bootstrap	Warning: Configuration property 'discovery.uri' is deprecated and should not be used
+2014-01-11T00:55:10.796+0900	 INFO	main	Bootstrap	PROPERTY                                          DEFAULT                   RUNTIME                               DESCRIPTION
+2014-01-11T00:55:10.796+0900	 INFO	main	Bootstrap	discovery.uri                                     null                      http://127.0.0.1:8411                 Discovery service base URI
+2014-01-11T00:55:10.796+0900	 INFO	main	Bootstrap	service-inventory.uri                             null                      null                                  Service inventory base URI
+2014-01-11T00:55:10.796+0900	 INFO	main	Bootstrap	service-inventory.update-interval                 10.00s                    10.00s                                Service inventory update interval
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	discovery.collector.pool                          general                   general
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	discovery.max-age                                 30.00s                    30.00s
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	discovery.store-cache-ttl                         1.00s                     1.00s
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	static.db.location                                db                        db
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	dynamic.store.gc-interval                         1.00h                     1.00h
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	dynamic.store.remote.max-batch-size               1000                      1000
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	dynamic.store.remote.queue-size                   1000                      1000
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	dynamic.store.remote.update-interval              5.00s                     5.00s
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	dynamic.store.remote.replication-interval         1.00m                     1.00m
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	dynamic.store.tombstone-max-age                   1.00d                     1.00d
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	static.store.gc-interval                          1.00h                     1.00h
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	static.store.remote.max-batch-size                1000                      1000
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	static.store.remote.queue-size                    1000                      1000
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	static.store.remote.update-interval               5.00s                     5.00s
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	static.store.remote.replication-interval          1.00m                     1.00m
+2014-01-11T00:55:10.797+0900	 INFO	main	Bootstrap	static.store.tombstone-max-age                    1.00d                     1.00d
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	discovery.http-client.connect-timeout             1.00s                     1.00s
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	discovery.http-client.keep-alive-interval         null                      null
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	discovery.http-client.max-connections             200                       200
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	discovery.http-client.max-connections-per-server  20                        20
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	discovery.http-client.read-timeout                1.00m                     1.00m
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	discovery.http-client.socks-proxy                 null                      null
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	dynamic.http-client.connect-timeout               1.00s                     1.00s
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	dynamic.http-client.keep-alive-interval           null                      null
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	dynamic.http-client.max-connections               200                       200
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	dynamic.http-client.max-connections-per-server    20                        20
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	dynamic.http-client.read-timeout                  1.00m                     1.00m
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	dynamic.http-client.socks-proxy                   null                      null
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	static.http-client.connect-timeout                1.00s                     1.00s
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	static.http-client.keep-alive-interval            null                      null
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	static.http-client.max-connections                200                       200
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	static.http-client.max-connections-per-server     20                        20
+2014-01-11T00:55:10.798+0900	 INFO	main	Bootstrap	static.http-client.read-timeout                   1.00m                     1.00m
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	static.http-client.socks-proxy                    null                      null
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	event.http-client.connect-timeout                 1.00s                     1.00s
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	event.http-client.keep-alive-interval             null                      null
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	event.http-client.max-connections                 200                       200
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	event.http-client.max-connections-per-server      20                        20
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	event.http-client.read-timeout                    1.00m                     1.00m
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	event.http-client.socks-proxy                     null                      null
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	discovery.http-client.pool-connections            false                     false
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	discovery.http-client.max-content-length          16MB                      16MB
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	discovery.http-client.threads                     8                         8
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	event.http-client.pool-connections                false                     false
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	event.http-client.max-content-length              16MB                      16MB
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	event.http-client.threads                         8                         8
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	http-client.shared-io-boss-threads                1                         1
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	http-client.shared-io-worker-threads              4                         4
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	http-server.admin.enabled                         true                      true
+2014-01-11T00:55:10.799+0900	 INFO	main	Bootstrap	http-server.admin.threads.max                     20                        20
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.admin.threads.min                     2                         2
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.admin.port                            0                         0
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.http.enabled                          true                      true
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.http.port                             8080                      8411
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.https.enabled                         false                     false
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.https.port                            8443                      8443
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.https.keystore.key                    null                      null
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.https.keystore.path                   null                      null
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.log.path                              var/log/http-request.log  var/log/http-request.log
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.log.retention-time                    15.00d                    15.00d
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.max-request-header-size               null                      null
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.threads.max                           200                       200
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.threads.min                           2                         2
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.net.max-idle-time                     200.00s                   200.00s
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.threads.max-idle-time                 1.00m                     1.00m
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	http-server.auth.users-file                       null                      null
+2014-01-11T00:55:10.800+0900	 INFO	main	Bootstrap	jmx.rmiregistry.port                              null                      null
+2014-01-11T00:55:10.801+0900	 INFO	main	Bootstrap	jmx.rmiserver.port                                null                      null
+2014-01-11T00:55:10.801+0900	 INFO	main	Bootstrap	jmx-http-rpc.password                             null                      null
+2014-01-11T00:55:10.801+0900	 INFO	main	Bootstrap	jmx-http-rpc.username                             null                      null
+2014-01-11T00:55:10.801+0900	 INFO	main	Bootstrap	node.binary-spec                                  null                      null
+2014-01-11T00:55:10.801+0900	 INFO	main	Bootstrap	node.config-spec                                  null                      null
+2014-01-11T00:55:10.801+0900	 INFO	main	Bootstrap	node.environment                                  null                      production
+2014-01-11T00:55:10.801+0900	 INFO	main	Bootstrap	node.location                                     null                      null
+2014-01-11T00:55:10.801+0900	 INFO	main	Bootstrap	node.bind-ip                                      null                      null
+2014-01-11T00:55:10.801+0900	 INFO	main	Bootstrap	node.external-address                             null                      null
+2014-01-11T00:55:10.801+0900	 INFO	main	Bootstrap	node.id                                           null                      ffffffff-ffff-ffff-ffff-fffffffffff0
+2014-01-11T00:55:10.801+0900	 INFO	main	Bootstrap	node.ip                                           null                      null
+2014-01-11T00:55:10.801+0900	 INFO	main	Bootstrap	node.pool                                         general                   general
+2014-01-11T00:55:10.801+0900	 INFO	main	Bootstrap	
+2014-01-11T00:55:11.528+0900	 INFO	main	io.airlift.jmx.JmxAgent	JMX agent started and listening on localhost.localdomain:44736
+2014-01-11T00:55:11.880+0900	 INFO	main	org.eclipse.jetty.server.Server	jetty-8.1.9.v20130131
+2014-01-11T00:55:12.047+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.jaxrs.JsonMapper as a provider class
+2014-01-11T00:55:12.048+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.jaxrs.ParsingExceptionMapper as a provider class
+2014-01-11T00:55:12.048+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.server.ServiceResource as a root resource class
+2014-01-11T00:55:12.048+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.server.DynamicAnnouncementResource as a root resource class
+2014-01-11T00:55:12.048+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.store.StoreResource as a root resource class
+2014-01-11T00:55:12.048+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.store.SmileMapper as a provider class
+2014-01-11T00:55:12.048+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.server.StaticAnnouncementResource as a root resource class
+2014-01-11T00:55:12.050+0900	 INFO	main	com.sun.jersey.server.impl.application.WebApplicationImpl	Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+2014-01-11T00:55:12.137+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.jaxrs.ParsingExceptionMapper to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:55:12.139+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.jaxrs.JsonMapper to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:55:12.141+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.store.SmileMapper to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:55:12.483+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.server.ServiceResource to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:55:12.738+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.server.DynamicAnnouncementResource to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:55:12.741+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.store.StoreResource to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:55:12.744+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.server.StaticAnnouncementResource to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:55:12.766+0900	 WARN	main	org.eclipse.jetty.util.component.AbstractLifeCycle	FAILED SelectChannelConnector@0.0.0.0:8411: java.net.BindException: アドレスは既に使用中です
+java.net.BindException: アドレスは既に使用中です
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:444) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_45]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:291) [jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at io.airlift.http.server.HttpServer.start(HttpServer.java:310) [http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:146) [http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:41) [http-server-0.83.jar:0.83]
+	at com.google.inject.internal.BoundProviderFactory.get(BoundProviderFactory.java:55) [guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) [guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031) [guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) [guice-3.0.jar:na]
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:204) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:198) [guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:198) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:179) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:109) [guice-3.0.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:95) [guice-3.0.jar:na]
+	at io.airlift.bootstrap.Bootstrap.initialize(Bootstrap.java:277) [bootstrap-0.83.jar:0.83]
+	at io.airlift.discovery.server.DiscoveryServer.main(DiscoveryServer.java:57) [discovery-server-1.16.jar:1.16]
+2014-01-11T00:55:12.772+0900	 INFO	main	org.eclipse.jetty.server.AbstractConnector	Started SelectChannelConnector@0.0.0.0:60231
+2014-01-11T00:55:12.773+0900	 WARN	main	org.eclipse.jetty.util.component.AbstractLifeCycle	FAILED org.eclipse.jetty.server.Server@794de30b: java.net.BindException: アドレスは既に使用中です
+java.net.BindException: アドレスは既に使用中です
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:444) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_45]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:291) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at io.airlift.http.server.HttpServer.start(HttpServer.java:310) [http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:146) [http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:41) [http-server-0.83.jar:0.83]
+	at com.google.inject.internal.BoundProviderFactory.get(BoundProviderFactory.java:55) [guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) [guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031) [guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) [guice-3.0.jar:na]
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:204) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:198) [guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:198) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:179) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:109) [guice-3.0.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:95) [guice-3.0.jar:na]
+	at io.airlift.bootstrap.Bootstrap.initialize(Bootstrap.java:277) [bootstrap-0.83.jar:0.83]
+	at io.airlift.discovery.server.DiscoveryServer.main(DiscoveryServer.java:57) [discovery-server-1.16.jar:1.16]
+2014-01-11T00:55:13.114+0900	ERROR	main	io.airlift.discovery.server.DiscoveryServer	Guice creation errors:
+
+1) Error in custom provider, java.lang.RuntimeException: java.net.BindException: アドレスは既に使用中です
+  while locating io.airlift.http.server.HttpServerProvider
+  at io.airlift.http.server.HttpServerModule.configure(HttpServerModule.java:61)
+  while locating io.airlift.http.server.HttpServer
+
+1 error
+com.google.inject.CreationException: Guice creation errors:
+
+1) Error in custom provider, java.lang.RuntimeException: java.net.BindException: アドレスは既に使用中です
+  while locating io.airlift.http.server.HttpServerProvider
+  at io.airlift.http.server.HttpServerModule.configure(HttpServerModule.java:61)
+  while locating io.airlift.http.server.HttpServer
+
+1 error
+	at com.google.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:435) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:183) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:109) ~[guice-3.0.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:95) ~[guice-3.0.jar:na]
+	at io.airlift.bootstrap.Bootstrap.initialize(Bootstrap.java:277) ~[bootstrap-0.83.jar:0.83]
+	at io.airlift.discovery.server.DiscoveryServer.main(DiscoveryServer.java:57) ~[discovery-server-1.16.jar:1.16]
+Caused by: java.lang.RuntimeException: java.net.BindException: アドレスは既に使用中です
+	at com.google.common.base.Throwables.propagate(Throwables.java:160) ~[guava-15.0.jar:na]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:150) ~[http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:41) ~[http-server-0.83.jar:0.83]
+	at com.google.inject.internal.BoundProviderFactory.get(BoundProviderFactory.java:55) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) ~[guice-3.0.jar:na]
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:204) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:198) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:198) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:179) ~[guice-3.0.jar:na]
+	... 4 common frames omitted
+Caused by: java.net.BindException: アドレスは既に使用中です
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:444) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_45]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:291) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at io.airlift.http.server.HttpServer.start(HttpServer.java:310) ~[http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:146) ~[http-server-0.83.jar:0.83]
+	... 16 common frames omitted
+2014-01-11T00:57:17.670+0900	 INFO	main	io.airlift.log.Logging	Disabling stderr output
+2014-01-11T00:57:18.237+0900	 WARN	main	Bootstrap	Warning: Configuration property 'discovery.uri' is deprecated and should not be used
+2014-01-11T00:57:18.433+0900	 INFO	main	Bootstrap	PROPERTY                                          DEFAULT                   RUNTIME                               DESCRIPTION
+2014-01-11T00:57:18.433+0900	 INFO	main	Bootstrap	discovery.uri                                     null                      http://127.0.0.1:8411                 Discovery service base URI
+2014-01-11T00:57:18.433+0900	 INFO	main	Bootstrap	service-inventory.uri                             null                      null                                  Service inventory base URI
+2014-01-11T00:57:18.433+0900	 INFO	main	Bootstrap	service-inventory.update-interval                 10.00s                    10.00s                                Service inventory update interval
+2014-01-11T00:57:18.433+0900	 INFO	main	Bootstrap	discovery.collector.pool                          general                   general
+2014-01-11T00:57:18.433+0900	 INFO	main	Bootstrap	discovery.max-age                                 30.00s                    30.00s
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	discovery.store-cache-ttl                         1.00s                     1.00s
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	static.db.location                                db                        db
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	dynamic.store.gc-interval                         1.00h                     1.00h
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	dynamic.store.remote.max-batch-size               1000                      1000
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	dynamic.store.remote.queue-size                   1000                      1000
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	dynamic.store.remote.update-interval              5.00s                     5.00s
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	dynamic.store.remote.replication-interval         1.00m                     1.00m
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	dynamic.store.tombstone-max-age                   1.00d                     1.00d
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	static.store.gc-interval                          1.00h                     1.00h
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	static.store.remote.max-batch-size                1000                      1000
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	static.store.remote.queue-size                    1000                      1000
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	static.store.remote.update-interval               5.00s                     5.00s
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	static.store.remote.replication-interval          1.00m                     1.00m
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	static.store.tombstone-max-age                    1.00d                     1.00d
+2014-01-11T00:57:18.434+0900	 INFO	main	Bootstrap	discovery.http-client.connect-timeout             1.00s                     1.00s
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	discovery.http-client.keep-alive-interval         null                      null
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	discovery.http-client.max-connections             200                       200
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	discovery.http-client.max-connections-per-server  20                        20
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	discovery.http-client.read-timeout                1.00m                     1.00m
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	discovery.http-client.socks-proxy                 null                      null
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	dynamic.http-client.connect-timeout               1.00s                     1.00s
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	dynamic.http-client.keep-alive-interval           null                      null
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	dynamic.http-client.max-connections               200                       200
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	dynamic.http-client.max-connections-per-server    20                        20
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	dynamic.http-client.read-timeout                  1.00m                     1.00m
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	dynamic.http-client.socks-proxy                   null                      null
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	static.http-client.connect-timeout                1.00s                     1.00s
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	static.http-client.keep-alive-interval            null                      null
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	static.http-client.max-connections                200                       200
+2014-01-11T00:57:18.435+0900	 INFO	main	Bootstrap	static.http-client.max-connections-per-server     20                        20
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	static.http-client.read-timeout                   1.00m                     1.00m
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	static.http-client.socks-proxy                    null                      null
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	event.http-client.connect-timeout                 1.00s                     1.00s
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	event.http-client.keep-alive-interval             null                      null
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	event.http-client.max-connections                 200                       200
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	event.http-client.max-connections-per-server      20                        20
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	event.http-client.read-timeout                    1.00m                     1.00m
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	event.http-client.socks-proxy                     null                      null
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	discovery.http-client.pool-connections            false                     false
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	discovery.http-client.max-content-length          16MB                      16MB
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	discovery.http-client.threads                     8                         8
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	event.http-client.pool-connections                false                     false
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	event.http-client.max-content-length              16MB                      16MB
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	event.http-client.threads                         8                         8
+2014-01-11T00:57:18.436+0900	 INFO	main	Bootstrap	http-client.shared-io-boss-threads                1                         1
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-client.shared-io-worker-threads              4                         4
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-server.admin.enabled                         true                      true
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-server.admin.threads.max                     20                        20
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-server.admin.threads.min                     2                         2
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-server.admin.port                            0                         0
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-server.http.enabled                          true                      true
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-server.http.port                             8080                      8411
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-server.https.enabled                         false                     false
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-server.https.port                            8443                      8443
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-server.https.keystore.key                    null                      null
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-server.https.keystore.path                   null                      null
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-server.log.path                              var/log/http-request.log  var/log/http-request.log
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-server.log.retention-time                    15.00d                    15.00d
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-server.max-request-header-size               null                      null
+2014-01-11T00:57:18.437+0900	 INFO	main	Bootstrap	http-server.threads.max                           200                       200
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	http-server.threads.min                           2                         2
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	http-server.net.max-idle-time                     200.00s                   200.00s
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	http-server.threads.max-idle-time                 1.00m                     1.00m
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	http-server.auth.users-file                       null                      null
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	jmx.rmiregistry.port                              null                      null
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	jmx.rmiserver.port                                null                      null
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	jmx-http-rpc.password                             null                      null
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	jmx-http-rpc.username                             null                      null
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	node.binary-spec                                  null                      null
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	node.config-spec                                  null                      null
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	node.environment                                  null                      production
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	node.location                                     null                      null
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	node.bind-ip                                      null                      null
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	node.external-address                             null                      null
+2014-01-11T00:57:18.438+0900	 INFO	main	Bootstrap	node.id                                           null                      ffffffff-ffff-ffff-ffff-fffffffffff0
+2014-01-11T00:57:18.439+0900	 INFO	main	Bootstrap	node.ip                                           null                      null
+2014-01-11T00:57:18.439+0900	 INFO	main	Bootstrap	node.pool                                         general                   general
+2014-01-11T00:57:18.439+0900	 INFO	main	Bootstrap	
+2014-01-11T00:57:19.220+0900	 INFO	main	io.airlift.jmx.JmxAgent	JMX agent started and listening on localhost.localdomain:48667
+2014-01-11T00:57:19.604+0900	 INFO	main	org.eclipse.jetty.server.Server	jetty-8.1.9.v20130131
+2014-01-11T00:57:19.786+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.jaxrs.JsonMapper as a provider class
+2014-01-11T00:57:19.787+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.jaxrs.ParsingExceptionMapper as a provider class
+2014-01-11T00:57:19.787+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.server.ServiceResource as a root resource class
+2014-01-11T00:57:19.787+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.server.DynamicAnnouncementResource as a root resource class
+2014-01-11T00:57:19.787+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.store.StoreResource as a root resource class
+2014-01-11T00:57:19.787+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.store.SmileMapper as a provider class
+2014-01-11T00:57:19.787+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Registering io.airlift.discovery.server.StaticAnnouncementResource as a root resource class
+2014-01-11T00:57:19.789+0900	 INFO	main	com.sun.jersey.server.impl.application.WebApplicationImpl	Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+2014-01-11T00:57:19.867+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.jaxrs.ParsingExceptionMapper to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:57:19.870+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.jaxrs.JsonMapper to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:57:19.872+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.store.SmileMapper to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:57:20.227+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.server.ServiceResource to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:57:20.506+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.server.DynamicAnnouncementResource to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:57:20.509+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.store.StoreResource to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:57:20.511+0900	 INFO	main	com.sun.jersey.guice.spi.container.GuiceComponentProviderFactory	Binding io.airlift.discovery.server.StaticAnnouncementResource to GuiceManagedComponentProvider with the scope "Singleton"
+2014-01-11T00:57:20.532+0900	 WARN	main	org.eclipse.jetty.util.component.AbstractLifeCycle	FAILED SelectChannelConnector@0.0.0.0:8411: java.net.BindException: アドレスは既に使用中です
+java.net.BindException: アドレスは既に使用中です
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:444) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_45]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:291) [jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at io.airlift.http.server.HttpServer.start(HttpServer.java:310) [http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:146) [http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:41) [http-server-0.83.jar:0.83]
+	at com.google.inject.internal.BoundProviderFactory.get(BoundProviderFactory.java:55) [guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) [guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031) [guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) [guice-3.0.jar:na]
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:204) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:198) [guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:198) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:179) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:109) [guice-3.0.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:95) [guice-3.0.jar:na]
+	at io.airlift.bootstrap.Bootstrap.initialize(Bootstrap.java:277) [bootstrap-0.83.jar:0.83]
+	at io.airlift.discovery.server.DiscoveryServer.main(DiscoveryServer.java:57) [discovery-server-1.16.jar:1.16]
+2014-01-11T00:57:20.537+0900	 INFO	main	org.eclipse.jetty.server.AbstractConnector	Started SelectChannelConnector@0.0.0.0:40377
+2014-01-11T00:57:20.538+0900	 WARN	main	org.eclipse.jetty.util.component.AbstractLifeCycle	FAILED org.eclipse.jetty.server.Server@21d964b7: java.net.BindException: アドレスは既に使用中です
+java.net.BindException: アドレスは既に使用中です
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:444) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_45]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:291) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at io.airlift.http.server.HttpServer.start(HttpServer.java:310) [http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:146) [http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:41) [http-server-0.83.jar:0.83]
+	at com.google.inject.internal.BoundProviderFactory.get(BoundProviderFactory.java:55) [guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) [guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031) [guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) [guice-3.0.jar:na]
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:204) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:198) [guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:198) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:179) [guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:109) [guice-3.0.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:95) [guice-3.0.jar:na]
+	at io.airlift.bootstrap.Bootstrap.initialize(Bootstrap.java:277) [bootstrap-0.83.jar:0.83]
+	at io.airlift.discovery.server.DiscoveryServer.main(DiscoveryServer.java:57) [discovery-server-1.16.jar:1.16]
+2014-01-11T00:57:20.885+0900	ERROR	main	io.airlift.discovery.server.DiscoveryServer	Guice creation errors:
+
+1) Error in custom provider, java.lang.RuntimeException: java.net.BindException: アドレスは既に使用中です
+  while locating io.airlift.http.server.HttpServerProvider
+  at io.airlift.http.server.HttpServerModule.configure(HttpServerModule.java:61)
+  while locating io.airlift.http.server.HttpServer
+
+1 error
+com.google.inject.CreationException: Guice creation errors:
+
+1) Error in custom provider, java.lang.RuntimeException: java.net.BindException: アドレスは既に使用中です
+  while locating io.airlift.http.server.HttpServerProvider
+  at io.airlift.http.server.HttpServerModule.configure(HttpServerModule.java:61)
+  while locating io.airlift.http.server.HttpServer
+
+1 error
+	at com.google.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:435) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:183) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:109) ~[guice-3.0.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:95) ~[guice-3.0.jar:na]
+	at io.airlift.bootstrap.Bootstrap.initialize(Bootstrap.java:277) ~[bootstrap-0.83.jar:0.83]
+	at io.airlift.discovery.server.DiscoveryServer.main(DiscoveryServer.java:57) ~[discovery-server-1.16.jar:1.16]
+Caused by: java.lang.RuntimeException: java.net.BindException: アドレスは既に使用中です
+	at com.google.common.base.Throwables.propagate(Throwables.java:160) ~[guava-15.0.jar:na]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:150) ~[http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:41) ~[http-server-0.83.jar:0.83]
+	at com.google.inject.internal.BoundProviderFactory.get(BoundProviderFactory.java:55) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) ~[guice-3.0.jar:na]
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:204) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:198) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:198) ~[guice-3.0.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:179) ~[guice-3.0.jar:na]
+	... 4 common frames omitted
+Caused by: java.net.BindException: アドレスは既に使用中です
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:444) ~[na:1.7.0_45]
+	at sun.nio.ch.Net.bind(Net.java:436) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[na:1.7.0_45]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_45]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:291) ~[jetty-server-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) ~[jetty-util-8.1.9.v20130131.jar:8.1.9.v20130131]
+	at io.airlift.http.server.HttpServer.start(HttpServer.java:310) ~[http-server-0.83.jar:0.83]
+	at io.airlift.http.server.HttpServerProvider.get(HttpServerProvider.java:146) ~[http-server-0.83.jar:0.83]
+	... 16 common frames omitted
